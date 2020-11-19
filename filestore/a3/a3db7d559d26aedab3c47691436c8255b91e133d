@@ -1,0 +1,17 @@
+
+.o_AttachmentList {
+  display: -webkit-box; display: -webkit-flex; display: flex;
+  flex-flow: wrap;
+  -webkit-box-pack: start; justify-content: flex-start;
+  margin: 0.25rem;
+}
+
+/* Avoid overflow of long attachment text */
+.o_AttachmentList_attachment {
+  margin-bottom: 0.25rem;
+  margin-top: 0.25rem;
+  margin-inline-end: 0.25rem;
+  margin-inline-start: 0;
+  max-width: 100%;
+}
+
